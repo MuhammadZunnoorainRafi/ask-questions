@@ -13,7 +13,7 @@ import Link from 'next/link';
 
 function SignIn() {
   return (
-    <Card className="w-[350px]">
+    <Card className="w-[350px] mt-14">
       <CardHeader>
         <CardTitle className="text-center">Sign In User</CardTitle>
       </CardHeader>
@@ -36,7 +36,7 @@ function SignIn() {
         </form>
       </CardContent>
       <CardFooter className="flex flex-col gap-3 justify-center">
-        <Button>Sign In</Button>
+        <Button type="submit">Sign In</Button>
         <div className="flex items-center text-sm gap-1">
           <p>Don&apos;t have an account?</p>
           <Link href="/signUp" className="text-blue-500 hover:text-blue-700">
